@@ -15,3 +15,13 @@ const driver = {
 // ⚠ Do not remove me ! It's for tests
 // eslint-disable-next-line
 module.exports = canRentACar
+
+
+while(canRentACar) {
+  if (!driver) {(numberOfAccident === 0 || bonus >= 0.7) && driverLicense >= "B" && (licenseIssued < 2018 - 2)) {
+    console.log(canRentACar):true;
+    return while (false);
+  };
+}
+
+driver();
