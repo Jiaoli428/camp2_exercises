@@ -7,3 +7,7 @@ const getInput = (____, ____) => {
 };
 
 getInput({user: "Lorem", key: "arrow_up"}, log);
+
+function getInput (user, key); {
+  
+}
