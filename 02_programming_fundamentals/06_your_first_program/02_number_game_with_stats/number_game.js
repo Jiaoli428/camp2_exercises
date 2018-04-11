@@ -6,7 +6,7 @@ const reader = readline.createInterface({
 
 
 let randomNumberBetween1and100 = Math.floor(Math.random() * 100);
-let i = 0;
+let i=1
 
 function requestnumber () {
   // console.log(randomNumberBetween1and100);
@@ -14,6 +14,8 @@ function requestnumber () {
     if (isNaN(number)) {
       console.log("This was not a number");
       requestnumber();
+      let i=1; i=i+1;
+      console.log(i);
     } else if (number < 0 || number > 100){
       console.log("The number is between 1 and 100");
       requestnumber();
@@ -29,11 +31,6 @@ function requestnumber () {
     }
   });
 
-  i++
-  if (i===1) {
-    console.log("BRAVO! You are the winner!");
-  } else {
-    console.log(`It is the ${i} times`);
   }
-}
+
 requestnumber();
