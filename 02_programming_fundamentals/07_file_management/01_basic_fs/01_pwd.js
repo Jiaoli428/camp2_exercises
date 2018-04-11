@@ -7,3 +7,8 @@ const path = require("path");
 // pwd() # => "/Users/john/Workspace/my_folder"
 
 module.exports = pwd
+
+function pwd(){
+  console.log(__dirname)
+};
+pwd()
