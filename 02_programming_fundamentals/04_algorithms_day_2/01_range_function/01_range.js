@@ -5,6 +5,11 @@
 
 // Complete this function.
 
+
+
+
+
+
 function logger(x) {
   console.log(x);
 }

@@ -8,8 +8,10 @@ const thisIsThePlayer = (callback) => {
 // Write a function sayHello that greets: "Hello, Spartacus". (Where "Spartacus" is the player name)
 
 
-function sayHello (object) {
-  console.log("Hello, " + object.name);
-  return "Hello, " + object.name;
+function sayHello (player) {
+  console.log(`Hello, + ${player.name}`);
 }
 thisIsThePlayer(sayHello);
+
+
+//console.log(`Hello, ${player.name}. You have ${player.life + 50} hit points!`);

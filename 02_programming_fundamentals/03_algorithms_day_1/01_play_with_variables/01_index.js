@@ -10,7 +10,8 @@ const bar = 28;
 const sumResult = foo + bar;
 // a constant called `prodResult`, bound to the product of `bar` and `foo`.
 const prodResult = bar * foo;
-// a constant called `promo`, bound to an object with a field `year`, with the value of `currentYear` and with the field `kind`, with the value of `hello`;
+// a constant called `promo`, bound to an object with a field `year`, with the value of `currentYear`
+// and with the field `kind`, with the value of `hello`;
 const promo = {
   year: currentYear,
   kind: hello };

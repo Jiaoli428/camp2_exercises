@@ -7,9 +7,25 @@
 // Note: This is not just the square of a number but the square of each digits
 // Note: The function accepts an integer and returns an integer
 
+
+
 function squareDigits(number) {
-  // Your code here
+  const numberString = number.toString();
+
+  const digits =
+    numberString
+      .split("")
+      .map((digitString) => parseInt(digitString, 10));
+
+  const digitsSquared = digits.map((digit) => digit * digit);
+
+  const digitsJoined = digitsSquared.join("");
+  return parseInt(digitsJoined, 10);
 }
+
+
+
+
 
 // Do not remove last lines, it is for tests
 // eslint-disable-next-line
