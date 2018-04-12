@@ -10,27 +10,29 @@
 
 const car = {
   speed: 130,
-  minutes: 42,
   counter: 0,
 
-  start: function(){
-    this.speed = 0; this.minutes = 0; this.counter = 0;
+  start:function() {
+    this.speed = 0;
+    this.counter = 0;
     return this;
   },
-  changeSpeed: function(NewSpeed){
-    this.speed = NewSpeed;
+
+  changeSpeed: function(newSpeed) {
+    this.speed = newSpeed;
     return this;
   },
-  drive: function(NewMinutes){
-    this.minutes = NewMinutes;
-    this.counter += this.speed * (this.minutes/60);
+
+  drive: function(newMinutes) {
+    this.counter += this.speed * (newMinutes / 60);
     return this;
   },
-  showDistance: function(){
+
+  showDistance: function() {
     console.log(`${this.counter} Km`);
   }
 };
-car.start().changeSpeed().drive().showDistance();
+car.start().changeSpeed(130).drive(42).showDistance();
 
 
 module.exports = car;
