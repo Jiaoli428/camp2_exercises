@@ -5,9 +5,9 @@
 //
 module.exports = isAFile;
 
-const path = "/Users/jiao/Workspace/camp2_exercises/02_programming_fundamentals/07_file_management/01_basic_fs/test_jiao.js";
 
 const fs = require("fs");
+
 function isAFile(path) {
   const stats = fs.lstatSync (path);
   return stats.isFile ();
@@ -23,4 +23,7 @@ function deleteFile () {
     console.log("File deleted!");
   });
 }
+
+const path = "/Users/jiao/Workspace/camp2_exercises/02_programming_fundamentals/07_file_management/01_basic_fs/test_jiao.js";
+
 deleteFile();

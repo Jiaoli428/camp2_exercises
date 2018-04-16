@@ -30,3 +30,5 @@ function squareDigits(number) {
 // Do not remove last lines, it is for tests
 // eslint-disable-next-line
 module.exports = squareDigits;
+
+// Array.from()
