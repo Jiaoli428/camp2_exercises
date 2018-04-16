@@ -1,1 +1,1 @@
-curl 'https://postman-echo.com/get?foo=bar&program=camp2' | jq .args >> 03_postman_api_call.result
+curl 'https://postman-echo.com/get?foo=bar&program=camp2' | jq .args > 03_postman_api_call.result
