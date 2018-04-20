@@ -1,9 +1,8 @@
-let numberOfLiters = 0;
+let litersOfCoffee = 0;
 
 function putLitersOfCoffee(numberOfLiters) {
-litersOfCoffee += numberOfLiters;
+  litersOfCoffee += numberOfLiters;
 }
-
 
 function consumeLitersOfCoffee(numberOfLiters) {
   if (litersOfCoffee < numberOfLiters) {
@@ -14,6 +13,5 @@ function consumeLitersOfCoffee(numberOfLiters) {
 }
 
 module.exports = {
-putLitersOfCoffee: putLitersOfCoffee,
-consumeLitersOfCoffee: consumeLitersOfCoffee
-};
+  putLitersOfCoffee: putLitersOfCoffee,
+  consumeLitersOfCoffee: consumeLitersOfCoffee
