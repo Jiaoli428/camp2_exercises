@@ -11,7 +11,6 @@ describe ("greet", () => {
     expect(result).toBe("Hello WORLD!");
   });
 
-
   test ("Hello to World", () => {
     const result = greet(undefined);
     expect(result).not.toBe("Hello undefined!");
