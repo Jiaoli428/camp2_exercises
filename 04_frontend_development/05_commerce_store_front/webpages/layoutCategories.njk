@@ -1,0 +1,12 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <h4> The categories of Decathlon products </h4>
+
+  <ul>
+  {% for board in boards %}
+  <li>{{board.label}}</li>
+  {% endfor %}
+  </ul>
+
+{% endblock %}
