@@ -5,6 +5,8 @@ const getProduct = require("./handlers/getProduct");
 const getProducts = require("./handlers/getProducts");
 const getCategory = require("./handlers/getCategory");
 const getCategories = require("./handlers/getCategories");
+const getCategories = require("./handlers/getCategories");
+const getProductsCategories = require(".categories ");
 const app = express();
 
 

@@ -14,7 +14,7 @@ request(
     categories.forEach(function(category) {
       request(
         { url: `https://decath-product-api.herokuapp.com/categories/${category.id}/products` },
-        function( error, response, body) {
+        function(error, response, body) {
           const products = JSON.parse(body);
           products.forEach(function(product) {
             productCategoryList.push({
