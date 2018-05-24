@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Line from './Line.js';
+import Line from './Line';
 import _ from 'underscore';
 
 class App extends Component {
